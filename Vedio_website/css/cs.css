@@ -1,0 +1,76 @@
+body{
+	font-family: "Abel", sans-serif;
+	font-size: 20px;
+
+}
+
+h1,h2{
+	font-family: "Impact";
+	padding: opx;
+	margin: 0px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 4px;
+
+}
+
+h1{
+	font-size: 5.6em; 
+	color: #B02C1A;
+}
+
+#temp{
+	color: #DDDDDD;
+}
+
+h2{
+	font-size: 2.5em; 
+	padding: 50px 0px;
+	color: #DDDDDD;
+}
+
+
+
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.container video{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	min-height: 100%;
+	min-width: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-webkit-transform: translate(-50%, -50%);
+	-ms-webkit-transform: translate(-50%, -50%);
+	z-index: -1;
+}
+#content{
+	width: 600px;
+	overflow: hidden;
+	margin: 0px auto;
+	padding: 100px 30px;
+}
+
+#textBackground{
+	background-color: rgba(166,42,25,0.7);
+	padding: 30px 30px;
+	color: #D5D5D5;
+}
+
+#topHR{
+	border: opx;
+	height: 5px;
+	background: #D5D5D5;
+}
+
+#BodyHR{
+	border: opx;
+	height: 5px;
+	padding: 1px 0px;
+	background: #D5D5D5;
+}
